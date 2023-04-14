@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3b821c;
+}
+
+nav {
+    background-color: #2f7014;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+nav #nav_brand h2 {
+    font-size: 1.8rem;
+}
+
+nav #nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav #nav_links .link {
+    margin-left: 2rem;
+    font-size: 1.04rem;
+}
+
+nav #nav_links .link a {
+    text-decoration: none;
+    color: white;
+}
+
+header #marqueeelement {
+    background-color: white;
+    color: #2f7014;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}
